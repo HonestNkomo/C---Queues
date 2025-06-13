@@ -1,0 +1,20 @@
+# include <iostream>
+# include <queue>
+
+int main()
+{
+  queue<string>cars;
+  cars.push("Mazda");
+  cars.push("BMW");
+  cars.push("Ford");
+  cars.push("Volvo");
+
+  if(cars.front()== "Volvo" && cars.back()== "Mazda")
+    {
+    cout<<"Front" <<cars.front(), << end1;
+    cout<<"Back" <<cars.back(), << end1;
+    }
+  return 0;
+  }
+
+
